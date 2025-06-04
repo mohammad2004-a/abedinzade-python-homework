@@ -5,7 +5,7 @@ def main():
         list.append(b)
         if len(list)>3:
             print("continiue ?")
-            if input() == "n":
+            if input() == "k":
                 break
             else:None
     print(get_maximum(list))
