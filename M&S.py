@@ -1,8 +1,8 @@
 def main():
     list = []
     while True:
-        a = int(input("Enter number : "))
-        list.append(a)
+        b = int(input("Enter number : "))
+        list.append(b)
         if len(list)>3:
             print("continiue ?")
             if input() == "n":
